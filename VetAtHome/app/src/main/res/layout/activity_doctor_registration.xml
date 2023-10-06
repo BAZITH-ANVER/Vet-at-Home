@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".DoctorRegistration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Register"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/contactEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="phone"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/specEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Specialisation"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/placeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Place"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/usernameeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Username"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/feesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Fees"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_border"
+        android:layout_marginTop="25dp"
+        android:text="Register"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

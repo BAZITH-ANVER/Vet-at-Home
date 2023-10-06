@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".UserRegistration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="User Register"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"/>
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Phone"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Address"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Age"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Username"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:padding="15dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/registerButtonn"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="25dp"
+        android:text="Register"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
